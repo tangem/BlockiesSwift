@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BlockiesSwift'
-  s.version          = '0.1.2'
+  s.version          = '0.1.2-tangem1'
   s.summary          = 'Generate unique Blockies images for wallets'
 
 # This description is used to generate tags and improve search results.
@@ -30,10 +30,10 @@ This is an exact implementation as the one the Mist Wallet uses.
   s.source           = { :git => 'https://github.com/Boilertalk/BlockiesSwift.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
-  s.osx.deployment_target = '10.10'
-  s.tvos.deployment_target = '9.0'
-  s.watchos.deployment_target = '2.0'
+  s.ios.deployment_target = '15.0'
+  s.osx.deployment_target = '12.0'
+  s.tvos.deployment_target = '15.0'
+  s.watchos.deployment_target = '8.0'
 
   s.source_files = 'BlockiesSwift/Classes/**/*'
 
